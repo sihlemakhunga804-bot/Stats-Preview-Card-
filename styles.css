@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font-family:'Inter',sans-serif;
+    height: 100vh;
+    font-weight: 400, 700;
+    color: hsl(0, 0%, 100%) 
+}
+
+.card {
+    background-color: hsl(244, 37%, 16%);
+    height: 100%;
+}
+
+.card-img {
+    width: 100%;
+    height: 300px;
+    position:relative;
+    
+}
+
+.card-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.6; /* adjust transparency */
+    pointer-events: none; /* ensures overlay doesn’t block interactions */
+}
+
+.people-working {
+    height: 100%;
+    width: 100%;
+}
+
+.insights {
+    padding: 32px;
+    /* height: calc(100vh - 300px); */
+    /* overflow: hidden;  */
+    letter-spacing:2px;
+}
+
+.insights-text {
+    color: hsl(277, 64%, 61%);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+   
+}
+
+.insights-info {
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 1.6;
+}
+
+.stats {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 1.6; 
+    
+}
+
+.stat-num {
+    font-size: 15px;
+}
+
+.description {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* Desktop */
+@media(min-width:767px) {
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background:hsl(233, 47%, 7%);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+    
+}
+.card{
+    width:1100px;
+    height:300px;
+    display:flex;
+    background:hsl(244, 38%, 16%);
+    border-radius:10px;
+    overflow:hidden;
+    flex-direction: row-reverse;
+    justify-items: center;
+    margin-bottom: 10px;
+    
+}
+
+/* LEFT SIDE */
+
+.content{
+    flex:1;
+    padding:70px;
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+}
+
+.content h1{
+    font-size:2.2rem;
+    color:white;
+    line-height:1.2;
+    margin-bottom:30px;
+}
+
+.content h1 span{
+    color:hsl(277, 64%, 61%);
+}
+
+.content p{
+    color:hsla(0,0%,100%,0.75);
+    line-height:1.8;
+    max-width:380px;
+    margin-bottom:70px;
+}
+
+/* STATS */
+
+.stats{
+    display:flex;
+    gap:70px;
+}
+
+.stats h2{
+    color:white;
+    font-size:1.6rem;
+    margin-bottom:8px;
+}
+
+.stats span{
+    color:hsla(0,0%,100%,0.6);
+    font-size:.8rem;
+    letter-spacing:2px;
+}
+
+/* IMAGE */
+
+.image{
+    flex:1;
+    position:relative;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* Purple overlay */
+
+.image::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:hsla(277,64%,61%,0.6);
+}
