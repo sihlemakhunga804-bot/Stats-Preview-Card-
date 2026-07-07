@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://your-solution-url.com)
+- Live Site URL: [live site](https://sihlemakhunga804-bot.github.io/Stats-Preview-Card-/)
 
 ## My process
 
@@ -128,10 +128,12 @@ To see how you can add code snippets, see below:
 
 i have learnt that it is important to make a code more readable
 
+```html
 <div class="stat-num-and-description">
   <p class="stat-num"><b>314</b></p>
   <p class="description">TEMPLATE</p>
 </div>
+```
 
 I also learnt on how to create different viewa for different device screen sizes
 
@@ -170,6 +172,7 @@ I used chatgpt to help me find a code on how to make my picture to have a purple
 }
 
 I also used AI to help me create  a template of Desktop view and after I modified my desktopview to fit the preview card
+```css
 *{
     margin:0;
     padding:0;
@@ -263,15 +266,11 @@ body{
     inset:0;
     background:hsla(277,64%,61%,0.6);
 }
+```
 
 ## Author
 
-- Website - [Sihle Makhunga](https://www.your-site.com)
-- Frontend Mentor - [
-sihlemakhunga804-bot](https://www.frontendmentor.io/profile/yourusername)
-- 
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- [@sihlemakhunga804-bot](https://www.frontendmentor.io/profile/sihlemakhunga804-bot)
 
 ## Acknowledgments
 
