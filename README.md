@@ -1,104 +1,279 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Stats preview card component solution
 
-![Design preview for the Stats preview card component coding challenge](preview.jpg)
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Want some support on the challenge? 
+### Screenshot
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+![My Screenshot](./images/image.png)
 
-## Where to find everything
+### Links
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+## My process
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+The purpose of this project was to build a responsive preview card using HTML and CSS. The webpage displays an image, a heading, descriptive text, and company statistics in a modern card layout. HTML was used to structure the content, while CSS was used to style the webpage and make it visually appealing.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+Step 1: Analyzing the Design
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+I began by studying the project design carefully. I identified the main components of the webpage, which included:
 
-## Using AI coding assistants
+A hero image with a purple overlay.
+A heading with highlighted text.
+A short description paragraph.
+Three statistics showing companies, templates, and queries.
+A dark purple background.
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+Planning the layout before coding helped me understand how each section would fit together.
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+Step 2: Creating the HTML Structure
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+I created an index.html file and added the basic HTML5 structure. I then divided the webpage into sections using semantic HTML elements and <div> containers. I added:
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+An image section.
+A content section.
+A heading.
+A paragraph describing the business insights.
+Three statistic boxes displaying the company information.
 
-## Building your project
+This created a clear and organized webpage structure.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Step 3: Adding the CSS File
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+After creating the HTML structure, I created a style.css file and linked it to the HTML document using the <link> tag. Keeping the CSS separate from the HTML made the code easier to maintain and update.
 
-## Deploying your project
+Step 4: Styling the Background and Card
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+I used CSS to style the webpage by:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+Setting a dark purple background for the page.
+Creating a centered card container.
+Applying background colours, spacing, and rounded corners.
+Adjusting the width to match the design provided.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+These styles gave the webpage a clean and modern appearance.
 
-## Create a custom `README.md`
+Step 5: Styling the Text
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Next, I styled the typography by:
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Choosing a modern font family.
+Increasing the heading size.
+Making the word "insights" purple to emphasize it.
+Setting appropriate font sizes, colours, and line spacing for readability.
+Styling the statistics with bold numbers and uppercase labels.
+Step 6: Styling the Image
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+I inserted the image into the card and used CSS to:
 
-## Submitting your solution
+Set the image width to fit the container.
+Apply rounded corners to match the card.
+Add a purple overlay effect using CSS so the image blended with the overall colour scheme.
+Step 7: Positioning the Elements
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+I used CSS layout techniques such as Flexbox to align the content and ensure consistent spacing between the heading, paragraph, and statistics. Padding and margins were adjusted to create a balanced layout.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Step 8: Testing and Debugging
 
-## Sharing your solution
+After completing the design, I tested the webpage in a web browser. I checked that:
 
-There are multiple places you can share your solution:
+The image displayed correctly.
+The text was properly aligned.
+The colours matched the design.
+The spacing between elements was consistent.
+The layout remained responsive on different screen sizes.
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+Any errors found during testing were corrected before finalizing the project.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+Conclusion
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+This project improved my understanding of HTML and CSS by giving me practical experience in creating responsive layouts, styling text and images, using Flexbox for positioning, and applying colour schemes. I also learned the importance of planning, testing, and debugging to create a professional-looking webpage that closely matches a given design.
 
-## Got feedback for us?
+### Built with
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+### What I learned
+
+
+To see how you can add code snippets, see below:
+
+i have learnt that it is important to make a code more readable
+
+<div class="stat-num-and-description">
+  <p class="stat-num"><b>314</b></p>
+  <p class="description">TEMPLATE</p>
+</div>
+
+I also learnt on how to create different viewa for different device screen sizes
+
+
+### Continued development
+
+I wish to learn on how to us overflow code and opacity code which adjust transparency where it is applied
+
+
+### Useful resources
+
+-  resource 1 YOUTUBEwww.youtube.com/watch?v=qz0aGYrrlhU - this video helped me to build a proper readable structure for my coding in html and css styling
+- Cisco Htmle Essentials - ( )This helped understand the concept of html and CSS styling
+
+
+
+### AI Collaboration
+
+Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+
+- What tools did you use  ChatGPT,
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+- What worked well? What didn't?
+
+I used chatgpt to help me find a code on how to make my picture to have a purple filter with this code,
+.card-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.6; /* adjust transparency */
+    pointer-events: none; /* ensures overlay doesn’t block interactions */
+}
+
+I also used AI to help me create  a template of Desktop view and after I modified my desktopview to fit the preview card
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background:hsl(233, 47%, 7%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    width:1100px;
+    height:450px;
+    display:flex;
+    background:hsl(244, 38%, 16%);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* LEFT SIDE */
+
+.content{
+    flex:1;
+    padding:70px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.content h1{
+    font-size:2.2rem;
+    color:white;
+    line-height:1.2;
+    margin-bottom:30px;
+}
+
+.content h1 span{
+    color:hsl(277, 64%, 61%);
+}
+
+.content p{
+    color:hsla(0,0%,100%,0.75);
+    line-height:1.8;
+    max-width:380px;
+    margin-bottom:70px;
+}
+
+/* STATS */
+
+.stats{
+    display:flex;
+    gap:70px;
+}
+
+.stats h2{
+    color:white;
+    font-size:1.6rem;
+    margin-bottom:8px;
+}
+
+.stats span{
+    color:hsla(0,0%,100%,0.6);
+    font-size:.8rem;
+    letter-spacing:2px;
+}
+
+/* IMAGE */
+
+.image{
+    flex:1;
+    position:relative;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* Purple overlay */
+
+.image::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:hsla(277,64%,61%,0.6);
+}
+
+## Author
+
+- Website - [Sihle Makhunga](https://www.your-site.com)
+- Frontend Mentor - [
+sihlemakhunga804-bot](https://www.frontendmentor.io/profile/yourusername)
+- 
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+## Acknowledgments
+
+I would like thank xolani Dube for helping me undertsand how analyse and understand the requirements needed to finish the project. Nhlamulo Sibuyi helped upload my project on Github.
+
